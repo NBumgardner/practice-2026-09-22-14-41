@@ -10,7 +10,7 @@ const board_width = board_width_half * 2
 
 const board_area = board_width * board_height
 
-export const TicTacToe = {
+export const VolleyballReturns = {
   setup: () => ({ cells: Array(board_area).fill(null) }),
 
   moves: {

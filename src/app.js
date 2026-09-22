@@ -1,11 +1,11 @@
 import { Client } from "boardgame.io/client";
-import { TicTacToe } from "./game";
+import { VolleyballReturns } from "./game";
 
-class TicTacToeClient {
+class VolleyballReturnsClient {
   constructor() {
-    this.client = Client({ game: TicTacToe });
+    this.client = Client({ game: VolleyballReturns });
     this.client.start();
   }
 }
 
-const app = new TicTacToeClient();
+const app = new VolleyballReturnsClient();
