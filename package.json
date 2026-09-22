@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "start": "parcel src/index.html --open"
+  },
   "dependencies": {
     "boardgame.io": "^0.50.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
   }
 }
