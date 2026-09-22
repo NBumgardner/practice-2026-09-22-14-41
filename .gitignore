@@ -1,0 +1,3 @@
+# npm install command ignores
+package-lock.json
+node_modules/
